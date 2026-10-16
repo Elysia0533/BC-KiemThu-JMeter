@@ -20,13 +20,15 @@
 * **Ramp-up period (seconds):** `10` (Tăng tải đều trong 10 giây)
 * **Loop Count:** `2` (Tổng cộng tạo ra 100 requests)
 
-[KÉO THẢ ẢNH CHỤP THREAD GROUP VÀO ĐÂY]
+<img width="1505" height="808" alt="image" src="https://github.com/user-attachments/assets/a0812764-adfb-489c-a72f-ea5df7706882" />
+
 
 ### 2. Cấu hình HTTP Request & Response Assertion
 * **Protocol:** `https` | **Server Name:** `blazedemo.com` | **Method:** `GET` | **Path:** `/`
 * **Response Assertion:** Kiểm tra `Response Code` trả về bằng `200`.
 
-[KÉO THẢ ẢNH CHỤP HTTP REQUEST / ASSERTION VÀO ĐÂY]
+<img width="1515" height="818" alt="image" src="https://github.com/user-attachments/assets/a0a9cf0f-ae72-4783-9377-22d8745a23d1" />
+
 
 ---
 
@@ -35,12 +37,14 @@
 ### 1. Kết quả chi tiết từng Request (View Results Tree)
 Các yêu cầu gửi đi đều đạt trạng thái thành công (màu xanh lá), máy chủ phản hồi mã `200 OK`:
 
-[KÉO THẢ ẢNH CHỤP VIEW RESULTS TREE VÀO ĐÂY]
+<img width="1502" height="816" alt="image" src="https://github.com/user-attachments/assets/91cffdfa-ff03-4162-99d9-cc0fbf140d1b" />
+
 
 ### 2. Bảng thống kê hiệu năng (Summary Report)
 Kết quả tổng hợp sau khi hoàn thành 100 mẫu thử (`Samples = 100`):
 
-[KÉO THẢ ẢNH CHỤP SUMMARY REPORT VÀO ĐÂY]
+<img width="1516" height="815" alt="image" src="https://github.com/user-attachments/assets/36bf7391-9f0e-43dd-b84c-0f6ec4bed27c" />
+
 
 ### 3. Nhận xét và đánh giá
 * **Tổng số Request (Samples):** Đạt đủ `100` requests theo đúng kịch bản thiết kế ($50 \text{ users} \times 2 \text{ loops}$).
