@@ -37,7 +37,7 @@
 ### 1. Kết quả chi tiết từng Request (View Results Tree)
 Các yêu cầu gửi đi đều đạt trạng thái thành công (màu xanh lá), máy chủ phản hồi mã `200 OK`:
 
-<img width="1502" height="816" alt="image" src="https://github.com/user-attachments/assets/91cffdfa-ff03-4162-99d9-cc0fbf140d1b" />
+<img width="1512" height="814" alt="image" src="https://github.com/user-attachments/assets/6730cba6-2f73-4912-a981-88b2b244781e" />
 
 
 ### 2. Bảng thống kê hiệu năng (Summary Report)
